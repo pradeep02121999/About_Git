@@ -1,0 +1,32 @@
+To push from local to the git hub:
+-----------------------------------
+step1:
+	Initialize a Git repository in the folder
+	go to the folder in terminal -- git init
+	
+step2:
+	to add all files --  git add .
+	to add specific file -- replace . with  file name
+	
+step3:
+	git commit -m "Your commit message"
+	if error occurs follow the below --
+	   git config --global user.email "you@example.com"
+		git config --global user.name "Your Name"
+
+step4:
+	Create a new repository on GitHub
+	git remote add origin https://github.com/<username>/<repository>.git
+    git push -u origin master
+	
+	
+	
+To pull code from the github:
+============================
+create a folder and navigate the to the folder in terminal
+		git clone <repository_url>
+		git clone https://github.com/pradeep02121999/Employee_Details2.git
+	
+
+
+	
